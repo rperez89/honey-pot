@@ -10,16 +10,16 @@ import {
   useLayout,
   useTheme,
 } from '@1hive/1hive-ui'
-import { getTokenIconBySymbol } from '../lib/token-utils'
 import { useHistory } from 'react-router-dom'
 
-import { ConvictionBar } from '../components/ConvictionVisuals'
-import Balance from '../components/Balance'
-import FilterBar from '../components/FilterBar/FilterBar'
-import IdentityBadge from '../components/IdentityBadge'
-import { useWallet } from '../providers/Wallet'
+import { ConvictionBar } from '../ConvictionVisuals'
+import Balance from '../Balance'
+import FilterBar from '../FilterBar/FilterBar'
+import IdentityBadge from '../IdentityBadge'
+import { useWallet } from '../../providers/Wallet'
 
-import { addressesEqualNoSum as addressesEqual } from '../lib/web3-utils'
+import { getTokenIconBySymbol } from '../../lib/token-utils'
+import { addressesEqualNoSum as addressesEqual } from '../../lib/web3-utils'
 
 const ENTRIES_PER_PAGE = 5
 

@@ -10,12 +10,12 @@ import {
   TextInput,
   useTheme,
 } from '@1hive/1hive-ui'
-import { useAppState } from '../providers/AppState'
+import { useAppState } from '../../providers/AppState'
 
-import BigNumber from '../lib/bigNumber'
-import { toDecimals } from '../lib/math-utils'
-import { formatTokenAmount } from '../lib/token-utils'
-import { calculateThreshold, getMaxConviction } from '../lib/conviction'
+import BigNumber from '../../lib/bigNumber'
+import { toDecimals } from '../../lib/math-utils'
+import { formatTokenAmount } from '../../lib/token-utils'
+import { calculateThreshold, getMaxConviction } from '../../lib/conviction'
 
 const ZERO_ADDR = '0x0000000000000000000000000000000000000000'
 

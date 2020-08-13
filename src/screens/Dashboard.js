@@ -1,9 +1,9 @@
 import React from 'react'
 import { SidePanel, Split, SyncIndicator } from '@1hive/1hive-ui'
 
-import AddProposalPanel from '../components/AddProposalPanel'
-import MainScreen from './MainScreen'
-import StakingTokens from './StakingTokens'
+import AddProposalPanel from '../components/panels/AddProposalPanel'
+import MainScreen from '../components/Dashboard/MainScreen'
+import StakingTokens from '../components/Dashboard/StakingTokens'
 import Wallet from '../components/Wallet'
 
 import useAppLogic from '../app-logic'
