@@ -49,6 +49,7 @@ export function getAvailableNetworks() {
 
 function getRinkebyHoneyPotAddress(subGraphName) {
   if (subGraphName === 'staging') {
+    console.log('STAGINGGGGGGGG')
     return RINKEBY_STAGING_HONEY_POT
   }
   return RINKEBY_HONEY_POT
