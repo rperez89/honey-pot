@@ -47,8 +47,8 @@ export function getAvailableNetworks() {
   }))
 }
 
-function getRinkebyHoneyPotAddress(subGraphName) {
-  if (subGraphName === 'staging') {
+function getRinkebyHoneyPotAddress(rinkebyInstance) {
+  if (rinkebyInstance === 'staging') {
     console.log('STAGINGGGGGGGG')
     return RINKEBY_STAGING_HONEY_POT
   }
