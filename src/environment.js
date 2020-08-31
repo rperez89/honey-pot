@@ -23,7 +23,7 @@ const ENV_VARS = {
     return process.env.REACT_APP_PORTIS_DAPP_ID || ''
   },
   STAGING() {
-    return process.env.REACT_APP_APP_STAGING || false
+    return process.env.REACT_APP_APP_RINKEBY_INSTANCE || ''
   },
 }
 
